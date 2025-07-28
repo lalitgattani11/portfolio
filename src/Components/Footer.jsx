@@ -7,7 +7,7 @@ function Footer() {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-start gap-10 md:gap-20 lg:gap-40">
         {/* Left: Name and Description */}
         <div className="md:w-2/3">
-          <h2 className="uppercase text-xl font-bold mb-3">Lalit Gattani</h2>
+          <h2 className="uppercase text-xl font-bold mb-3 text-center md:text-left">Lalit Gattani</h2>
           <p className="text-md text-gray-300 leading-relaxed">
             A frontend focused Web Developer building the frontend of websites and web applications
             that leads to the success of the overall product.
@@ -15,9 +15,9 @@ function Footer() {
         </div>
 
         {/* Right: Social Links */}
-        <div className="md:w-1/3">
-          <h2 className="uppercase text-xl font-bold mb-3">Social</h2>
-          <div className="flex gap-6 text-2xl mt-2">
+        <div className="w-full md:w-1/3">
+          <h2 className="uppercase text-xl font-bold mb-3 text-center md:text-left">Social</h2>
+          <div className="flex justify-center md:justify-start gap-6 text-2xl mt-2">
             <a
               href="https://www.linkedin.com/in/lalit-gattani/"
               target="_blank"
