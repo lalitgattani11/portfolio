@@ -7,6 +7,10 @@ function Navbar() {
     setIsOpen(!isOpen);
   };
 
+  const closeNavbar = () => {
+    setIsOpen(false);
+  };
+
   const navItems = [
     { label: "Home", href: "#home" },
     { label: "About", href: "#about" },
@@ -58,6 +62,7 @@ function Navbar() {
               <li key={label}>
                 <a
                   href={href}
+                  onClick={closeNavbar}
                   className="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-[#5b2bc4] md:p-0 dark:text-white dark:hover:text-[#5b2bc4] dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
                 >
                   {label}
