@@ -64,7 +64,7 @@ function Project() {
               Tailwind CSS to reflect modern UI/UX practices.
             </p>
             <a
-              href="https://ochidesign-react.netlify.app/"
+              href="https://ochi-design-inky.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-[#5b2bc4] hover:bg-[#4a20a5] transition-colors text-white px-8 py-3 rounded-md text-lg font-semibold uppercase inline-block"
