@@ -4,7 +4,7 @@ import { FaLinkedin, FaInstagram, FaGithub } from "react-icons/fa";
 function Footer() {
   return (
     <footer className="bg-black text-white px-6 pt-16 pb-6">
-      <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-start gap-10 md:gap-20 lg:gap-40">
+      <div data-aos = "fade-up" className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-start gap-10 md:gap-20 lg:gap-40">
         {/* Left: Name and Description */}
         <div className="md:w-2/3">
           <h2 className="uppercase text-xl font-bold mb-3 text-center md:text-left">Lalit Gattani</h2>

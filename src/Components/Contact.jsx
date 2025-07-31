@@ -6,7 +6,7 @@ function Contact() {
       id="contact"
       className="bg-[url('/images/bg.svg')] bg-no-repeat bg-cover bg-center py-20 px-4"
     >
-      <div className="text-center px-4">
+      <div data-aos = "fade-up" className="text-center px-4">
         <h1 className="text-4xl font-bold uppercase mb-4 text-black underline decoration-[#5b2bc4] underline-offset-8 decoration-2">
           Contact Me
         </h1>
@@ -17,7 +17,7 @@ function Contact() {
         </p>
       </div>
 
-      <div className="mx-auto w-full max-w-3xl bg-white shadow-md rounded-lg p-8">
+      <div data-aos = "fade-up" className="mx-auto w-full max-w-3xl bg-white shadow-md rounded-lg p-8">
         <form
           className="space-y-6"
           action="https://formspree.io/f/myzpgrjd"

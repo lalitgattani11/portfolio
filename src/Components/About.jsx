@@ -16,7 +16,7 @@ const skills = [
 function About() {
   return (
     <div id="about" className="pt-32 bg-zinc-100">
-      <div className="text-center px-4">
+      <div data-aos = "fade-up" className="text-center px-4">
         <h1 className="text-4xl font-bold uppercase mb-4 text-black underline decoration-[#5b2bc4] underline-offset-8 decoration-2">
           About Me
         </h1>
@@ -27,7 +27,7 @@ function About() {
         </p>
       </div>
 
-      <div className="py-16 px-4 max-w-7xl mx-auto">
+      <div data-aos = "fade-up" className="py-16 px-4 max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row gap-10 items-start">
           {/* Left: Get to Know Me */}
           <div className="md:w-1/2 space-y-6">

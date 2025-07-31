@@ -3,7 +3,7 @@ import React from "react";
 function Project() {
   return (
     <div id="projects" className="pt-32 bg-zinc-200">
-      <div className="text-center px-4 pb-10">
+      <div data-aos = "fade-up" className="text-center px-4 pb-10">
         <h1 className="text-4xl font-bold uppercase mb-4 text-black underline decoration-[#5b2bc4] underline-offset-8 decoration-2">
           Projects
         </h1>
@@ -15,7 +15,7 @@ function Project() {
       </div>
 
       <div>
-        <div className="flex flex-col lg:flex-row items-center justify-center gap-12 px-6 py-12">
+        <div data-aos = "fade-up" className="flex flex-col lg:flex-row items-center justify-center gap-12 px-6 py-12">
           <div className="w-full max-w-[650px]">
             <img
               src="/images/project1.png"
@@ -45,7 +45,7 @@ function Project() {
           </div>
         </div>
 
-        <div className="flex flex-col lg:flex-row items-center justify-center gap-12 px-6 py-12">
+        <div data-aos = "fade-up" className="flex flex-col lg:flex-row items-center justify-center gap-12 px-6 py-12">
           <div className="w-full max-w-[650px]">
             <img
               src="/images/project2.png"
@@ -74,7 +74,7 @@ function Project() {
           </div>
         </div>
 
-        <div className="flex flex-col lg:flex-row items-center justify-center gap-12 px-6 py-12">
+        <div data-aos = "fade-up" className="flex flex-col lg:flex-row items-center justify-center gap-12 px-6 py-12">
           <div className="w-full max-w-[600px]">
             <img
               src="/images/project3.png"
