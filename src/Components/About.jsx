@@ -27,10 +27,10 @@ function About() {
         </p>
       </div>
 
-      <div data-aos = "fade-up" className="py-16 px-4 max-w-7xl mx-auto">
+      <div className="py-16 px-4 max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row gap-10 items-start">
           {/* Left: Get to Know Me */}
-          <div className="md:w-1/2 space-y-6">
+          <div  data-aos = "fade-right"  className="md:w-1/2 space-y-6">
             <h2 className="text-3xl font-bold text-gray-800">
               Get to know me!
             </h2>
@@ -58,7 +58,7 @@ function About() {
           </div>
 
           {/* Right: Skills */}
-          <div className="md:w-1/2">
+          <div  data-aos = "fade-left"  className="md:w-1/2">
             <h2 className="text-3xl font-bold text-center mb-6 text-gray-800">
               My Skills
             </h2>

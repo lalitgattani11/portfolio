@@ -22,7 +22,7 @@ function Footer() {
               href="https://www.linkedin.com/in/lalit-gattani/"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-blue-600 transition"
+              className="transition-transform duration-300 ease-in-out hover:scale-125"
             >
               <FaLinkedin />
             </a>
@@ -30,7 +30,7 @@ function Footer() {
               href="https://github.com/lalitgattani11"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-gray-300 transition"
+              className="transition-transform duration-300 ease-in-out hover:scale-125"
             >
               <FaGithub />
             </a>
@@ -38,7 +38,7 @@ function Footer() {
               href="https://www.instagram.com/lalit_maheshwari_18/"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-pink-500 transition"
+              className=" transition-transform duration-300 ease-in-out hover:scale-125"
             >
               <FaInstagram />
             </a>
